@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+ENV/
+env/
+
+# Machine Learning Models
+# (Removed from gitignore so Render can load the pre-trained models!)
+# ml/*.pkl
+# ml/fraud_model.pkl
+# ml/img_fraud_model.pkl
+# ml/scanner_model.pkl
+
+# Datasets (Optional to ignore if they are huge)
+# ml/data/
+# ml/dataset/
+
+# User Uploads & Generated Reports
+uploads/
+reports/
+
+# OS generated files
+.DS_Store
+Thumbs.db
